@@ -35,7 +35,7 @@ shadow.ZIndex = 0
 
 local topBar = Instance.new("Frame", mainFrame)
 topBar.Size = UDim2.new(1, 0, 0, 35)
-topBar.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+topBar.BackgroundTransparency = 1
 topBar.BorderSizePixel = 0
 
 local title = Instance.new("TextLabel", topBar)
