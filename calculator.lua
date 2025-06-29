@@ -20,6 +20,8 @@ mainFrame.Active = true
 mainFrame.Draggable = true
 mainFrame.Parent = screenGui
 
+Instance.new("UICorner", mainFrame).CornerRadius = UDim.new(0, 10)
+
 local shadow = Instance.new("ImageLabel", mainFrame)
 shadow.BackgroundTransparency = 1
 shadow.Image = "rbxassetid://1316045217"
