@@ -113,7 +113,7 @@ local function createButton(text, x, y)
             local success, result = pcall(function()
                 return loadstring("return " .. code)()
             end)
-            input.Text = success and tostring(result) or "Erro"
+            input.Text = success and tostring(result) or "?"
         elseif text == "C" then
             input.Text = ""
         else
